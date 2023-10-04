@@ -1,0 +1,12 @@
+import pandas as pd
+You can read a csv file:
+df= pd.read_csv("csvname.csv")
+You can read excel files:
+df=pd.read_excel('data.xlsx',sheet_name='Sheet1')
+You can read sql:
+import sqlite3
+conn = sqlite3.connect('database.db')
+query = 'SELECT * FROM table_name'
+df = pd.read_sql(query, conn)
+You can read json:
+df = pd.read_json('data.json')
