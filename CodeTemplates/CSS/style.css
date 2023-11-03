@@ -1,16 +1,17 @@
 ﻿html{
-    font-size:12px;
+    font-size: 12px;
 }
-#largetitle {
+#largeTitle
+{
     font-size: 50px;
 }
-
-}
-#alltitles {
+#allTitles {
     margin-top: 30vh;
-    font-family: 'Jost', sans-seriff;
+    font-family: 'Bentham', serif;
+    line-height: 0.8;
 }
-#mainsection {
+#mainSection
+{
     margin-left: 30vw;
     margin-right: 30vw;
 }
