@@ -1,0 +1,16 @@
+﻿html{
+    font-size:12px;
+}
+#largetitle {
+    font-size: 50px;
+}
+
+}
+#alltitles {
+    margin-top: 30vh;
+    font-family: 'Jost', sans-seriff;
+}
+#mainsection {
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
