@@ -2,30 +2,20 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <style>
-        body {
-
-        }
-        #gif {
-            position: absolute;
-            top: 50%; /* Adjust this value to vertically center the GIF as desired */
-            right: 0;
-            transform: translate(0, -50%); /* Center the GIF vertically using top and transform */
-        }
-        .giphy {
-            max-width: 100%; /* Ensure the GIF doesn't exceed the width of the container */
-            height: 100%; /* Make the GIF fill the entire height of the container */
-        }
-    </style>
     <meta charset="utf-8" />
     <title></title>
-
-    <link href="nbastyle.css" rel="stylesheet" />
+    <link rel="stylesheet", href="nbaStyle.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-    <dev id="gif">
-        <img classe="giphy" src="giphy.gif" allow="autoplay" type="img.gif" />
-        </dev>
-    
+    <div id="landing">
+        <div id="left">
+            <h1 class="title">Do NBA refs favor the home team?</h1>
+            <h3 class="title">Analyzing 13,000 reviewed calls by the NBA...</h3>
+        </div>
+        <div id="right">
+            <img src="giphy.gif" alt="Gif of a ref saying No Good!"/>
+        </div>
+    </div>
 </body>
 </html>
