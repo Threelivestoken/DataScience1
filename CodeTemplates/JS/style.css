@@ -1,3 +1,35 @@
-﻿body
-{
+﻿body {
+    color: white;
+    background-color: darkslateblue;
+    font-family: 'PT Sans', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.green {
+    margin-top: 30vh;
+    font-size: 30px;
+    color: springgreen;
+}
+
+.under {
+}
+
+.button {
+}
+
+.headphones {
+    color: darkgrey;
+}
+
+
+#video-background {
+    position: fixed;
+    height: 100vh;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
