@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>The website</title>
+	<style>
+		body {
+			background: radial-gradient(circle, beige, teal);
+			height: 100vh; /* Make the gradient cover the entire viewport height */
+			margin: 0; /* Remove default margin on the body */
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		p {
+			color: white;
+        	}
+		
+		.pagechange {
+			position: absolute;
+			bottom: 0vw;
+			left: 20px;
+			padding: 0px; /* Add some padding for better readability */
+		}
+
+		.pagenumber {
+			position: absolute;
+			bottom: 0vw;
+			right: 20px;
+			padding: 0px; /* Add some padding for better readability */
+		}
+	
+		#video-background {
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			z-index: -1; /* Place the video behind the content */
+			
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+		}
+
+
+
+
+    </style>
+</head>
+<body>
+	<h1 style="color: Grey;">
+		<a href="stuff2.html">
+		Cool
+		</a>
+	</h1>
+
+	
+	<!-- This is a video that ill have as the background-->
+
+		<video id="video-background" autoplay muted loop>
+			<source src="https://drive.google.com/uc?export=download&id=1OSUWL5iJlTBoPcxubWjLW6KPAWrrpkEt" type="video/mp4">
+		</video>
+		
+
+
+
+
+
+	<!-- Back a page and next page & the page number to add readability -->
+	<div class="pagechange">
+		<h5>Back <a href="stuff2.html">Next</a></h5>
+	</div>
+	<div class="pagenumber">
+		<h5>1</h5>
+	</div>
+</body>
+</html>

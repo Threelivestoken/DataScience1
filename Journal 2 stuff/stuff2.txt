@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>stuff2</title>
+	<style>
+		.pagechange {
+			position: absolute;
+			bottom: 0vw;
+			left: 20px;
+			padding: 0px; /* Add some padding for better readability */
+		}
+
+		.pagenumber {
+			position: absolute;
+			bottom: 0vw;
+			right: 20px;
+			padding: 0px; /* Add some padding for better readability */
+		}
+	</style>
+</head>
+
+
+
+<body>
+	<main>
+		<p><a href="index.html">cooler</a></p>
+		<p><iframe src="https://drive.google.com/file/d/1OSUWL5iJlTBoPcxubWjLW6KPAWrrpkEt/preview" width="640" height="480" allow="autoplay"></iframe></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Back a page and next page & the page number to add readability -->
+	<div class="pagechange">
+		<h5><a href="index.html">Back</a> <a href="stuff2.html">Next</a></h5>
+	</div>
+	<div class="pagenumber">
+		<h5>1</h5>
+	</div>
+	</main>
+</body>
+</html>
