@@ -1,14 +1,11 @@
-// JavaScript source code
-function button() {
-    var button = document.createElement("button");
-    button.innerHTML = "Dynamic Button";
-    button.id = "dynamicButton";
+function fadeOutElements() {
+    // Get elements by their IDs
+    var element = document.getElementById('all');
+    var button = document.getElementById('button');
+    var fadeIn = document.getElementById('fade-in');
 
-    button.addEventListener("click", function () {
-        transition();
-    });
-    document.body.appendChild(button);
-}
-function transition() {
-    alert("Button Clicked!");
+    // Apply the fade-out effect by changing opacity
+    element.style.opacity = '0';
+    button.style.top = '220px';
+    fadeIn.style.opacity = '100';
 }

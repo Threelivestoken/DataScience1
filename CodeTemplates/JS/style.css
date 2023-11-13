@@ -1,8 +1,9 @@
 ﻿body {
+    position: absolute;
     color: white;
     background-color: darkslateblue;
     font-family: 'PT Sans', sans-serif;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     padding: 10px;
@@ -10,26 +11,37 @@
 
 .green {
     margin-top: 30vh;
+    margin-bottom: 1vh;
     font-size: 30px;
     color: springgreen;
 }
 
 .under {
+    margin-top: 1vh;
+    font-size: 15px;
 }
 
 .button {
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 320px;
+    left: 45%;
+    transition: top 2s ease-in-out;
 }
 
 .headphones {
     color: darkgrey;
+    font-size: 10px;
 }
 
-
-#video-background {
-    position: fixed;
-    height: 100vh;
-    z-index: -1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.fade-out {
+    transition: opacity 1.5s ease;
 }
