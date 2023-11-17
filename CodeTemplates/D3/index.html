@@ -1,11 +1,26 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3 Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
 </head>
 <body>
 
+    <script src="script.js"></script>
+    <svg id="myDots" width="500" height="500"></svg>
+    <script>
+        vars svg = d3.select("myDots")
+            .attr('rx', 100)
+            .attr('ry',100)
+            .attr('r',50)
+            .attr('stroke','black')
+            .attr('fill','red')
+
+
+
+    </script>
 </body>
 </html>
