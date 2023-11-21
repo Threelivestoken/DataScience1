@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D3 Practice</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>Dynamic Content</title>
+    <script src="scripts.js"></script>
 </head>
 <body>
 
-    <script src="script.js"></script>
-    <svg id="myDots" width="500" height="500"></svg>
-    <script>
-        vars svg = d3.select("myDots")
-            .attr('rx', 100)
-            .attr('ry',100)
-            .attr('r',50)
-            .attr('stroke','black')
-            .attr('fill','red')
 
+    <h1>Choose Your Adventure</h1>
 
+    <!-- Dropdown menu -->
+    <select id="myDropdown" onchange="changeContent()">
+        <option value="page1">Page 1</option>
+        <option value="page2">Page 2</option>
+        <option value="page3">Page 3</option>
+    </select>
 
-    </script>
+    <!-- Content area -->
+    <div id="content">
+        <p>Default content. Select a page to change this.</p>
+    </div>
 </body>
 </html>
