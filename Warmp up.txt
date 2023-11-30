@@ -1,0 +1,13 @@
+It needs to be complex, it needs to have 2 different behaviors
+different than the visualizations
+
+Visualizations are related to question, readable, & consistently styled, at least one visualization is interactive
+
+
+
+
+
+am(a,b)=r^2-i^2+a
+bm(a,b)=2ri+b
+repeatedly iterate on these values
+
