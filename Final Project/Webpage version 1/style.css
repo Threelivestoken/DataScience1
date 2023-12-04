@@ -5,12 +5,12 @@
 
 
 body {
-    background: linear-gradient(90deg, black, grey, lightgrey, white, lightgrey, grey, black);
+    background: radial-gradient(circle, blue, teal);
 }
 /* Dropdown Button */
 .dropbtn {
     background-color: #cf6236;
-    color: white;
+    color: blue;
     padding: 4px;
     font-size: 16px;
     cursor: pointer;
