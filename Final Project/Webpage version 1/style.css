@@ -1,0 +1,39 @@
+﻿html {
+    height: 100%;
+    width: 100%;
+}
+
+
+body {
+    background: linear-gradient(90deg, black, grey, lightgrey, white, lightgrey, grey, black);
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #cf6236;
+    color: white;
+    padding: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display: block;
+}
+
+.content {
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+}

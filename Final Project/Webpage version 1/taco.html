@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Content</title>
+    <script src="script.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+    <h1>Choose Your Adventure</h1>
+
+    <!-- Dropdown menu -->
+    <select id="myDropdown" onchange="changeContent()">
+        <option value="page0">|--------|</option>
+        <option value="page1">Page 1</option>
+        <option value="page2">Page 2</option>
+        <option value="page3">Page 3</option>
+    </select>
+
+    <!-- Content area(basically stuff) -->
+    <div id="content">
+        <p>Default content. Select a page to change this.</p>
+    </div>
+</body>
+
+</html>
