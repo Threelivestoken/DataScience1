@@ -4,4 +4,6 @@ Warm-ups:
 
 12/6/2023
 12/8/2023
+If your data has no central insight, that means its just too vague or broad, if your data story has no central insight what is the point of the data story? Its just a regular story at that point with vague intent, it wont draw any people in for longer than the paragraph generally.
+
 12/12/2023
