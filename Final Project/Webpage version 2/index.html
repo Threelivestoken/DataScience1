@@ -3,13 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bar Chart with D3 Tooltip</title>
+  <title>Data Visualization</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <svg id="chart" width="500" height="300"></svg>
+  <!-- Title -->
+  <h1>Data Visualization</h1>
 
+  <!-- Scatterplot Container -->
+  <div class="chart-container">
+    <h2>Scatterplot</h2>
+    <svg id="scatterplot" class="chart"></svg>
+  </div>
+
+  <!-- Bar Chart Container -->
+  <div class="chart-container">
+    <h2>Bar Chart</h2>
+    <svg id="bar-chart" class="chart"></svg>
+  </div>
+
+  <!-- Scripts -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="script.js"></script>
 
