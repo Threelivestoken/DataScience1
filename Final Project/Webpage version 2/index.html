@@ -1,31 +1,39 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Data Visualization</title>
+  <title>Centered Search Bar</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <!-- Title -->
-  <h1>Data Visualization</h1>
-
-  <!-- Scatterplot Container -->
-  <div class="chart-container">
-    <h2>Scatterplot</h2>
-    <svg id="scatterplot" class="chart"></svg>
+  <div class="center-container" id="center-container">
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button onclick="performSearch()">Search</button>
+    </div>
   </div>
 
-  <!-- Bar Chart Container -->
-  <div class="chart-container">
-    <h2>Bar Chart</h2>
-    <svg id="bar-chart" class="chart"></svg>
+  <div class="content1" id="content1">
+    <h2>Search Results</h2>
+    <ul>
+      <li><a href="#" onclick="showContent()">Example Website 1</a></li>
+      <li><a href="#" onclick="showContent()">Example Website 2</a></li>
+      <li><a href="#" onclick="showContent()">Example Website 3</a></li>
+    </ul>
   </div>
 
-  <!-- Scripts -->
-  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <div class="content2" id="content2">
+    <h2>Content 2</h2>
+    <!-- Scatterplot -->>
+    <canvas id="scatterplot" width="400" height="400"></canvas>
+  </div>
+
   <script src="script.js"></script>
 
 </body>
+
 </html>
