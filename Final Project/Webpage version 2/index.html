@@ -1,76 +1,17 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        body {
-            /* This is a gradient background for body(the whole webpage) */
-            /*background: radial-gradient(circle, blue, teal);*/
-            background: linear-gradient(90deg, black, grey, lightgrey, white, lightgrey, grey, black);
-            /*155.746076298deg*/
-            /* (circle, beige, orange, green, teal, teal, teal, teal); */
-            /*circle, black, black, black, darkblue, blue, blue, darkblue, lightblue, white, white, white, white*/
-        }
-        /*Main header text*/
-        h1 {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 6.85vw;
-            color: black;
-            line-height: 2vw;
-            /*4.5vw;h1*/
-            /*font-size: 3.333333333333333vw;h2*/
-        }
-        h2 {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3.33333333vw;
-            line-height: 1vw;
-        }
-        /*Main text*/
-        p {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3.33333333333333vw;
-            line-height: .5vw;
-        }
-
-        #content {
-            border: 3px solid green;
-            margin-left: 15vw;
-            margin-right: 15vw;
-        }
-    </style>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bar Chart with D3 Tooltip</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Search Results Correlation?</h1>
-    <h1>Causation?</h1>
-    <p> </p>
 
-    <h2>Do websites names length have a correlation with</h2>
-    <h2> the website's popularity</h2>
-    <p> </p>
+  <svg id="chart" width="500" height="300"></svg>
 
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="script.js"></script>
 
-
-    <div id="content">
-        <!-- Your code here -->
-        <h2>My Question</h2>
-        <p>Does the length of a website's name have any</p>
-        <p>correlation with that website's popularity</p>
-        <h2>My Data</h2>
-        <!-- -->
-        <h2>My Analysis</h2>
-        <!-- Your code here -->
-        <h2>My Visualizations</h2>
-        <!-- Your code here -->
-        <h2>My Answer</h2>
-        <!-- Your code here -->
-
-    </div>
 </body>
 </html>
